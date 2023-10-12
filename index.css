@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #515A5A;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.boite{
+  text-align: center;
+  margin: auto;
+}
