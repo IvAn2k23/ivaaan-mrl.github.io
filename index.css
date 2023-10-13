@@ -1,13 +1,51 @@
 body {
   margin: 0;
+  padding:0;
   font-family: system-ui;
-  background: #515A5A;
+  background: #212121;
   color: white;
   display: flex;
   text-align: center;
+  height: 100%;
+  min-height: 100vh;
+  gap: 5em
 }
 
-.boite{
-  text-align: center;
+.titre {
+  background-color: #2b2b2b;
+  border: 1px solid #eceff133;
+  border-radius: 15px;
+  padding: 3px;
+}
+.boite {
+  width: 0.3333333333333%;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+
+}
+.texte {
+  background: #1b4f72;
   margin: auto;
+  font-size: 20px;
+  color: white;
+  flex-direction: column;
+}
+
+.liens {
+  background-color: #2b2b2b;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid #eceff133;
+}
+
+.boutton{
+  background-color: #9146FF;
+  border: 1px solid;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: system-ui;
 }
